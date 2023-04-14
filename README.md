@@ -24,7 +24,7 @@ Existen tres pantallas, que se seleccionan mediante 1° pulsador:
 
 - Control lumínico
 . 2 modos controlados por un 2° pulsador: - Floración, tiene un contador descendente de 12:00:00 HS
-                                       - Vegetación, tiene un contador descendente de 18:00:00 HS
+                                          - Vegetación, tiene un contador descendente de 18:00:00 HS
 . Se inicia y pausa la cuenta mediante un 3° pulsador
 
 . Si el contador no esta pausado las luces permanecerán encendidas.

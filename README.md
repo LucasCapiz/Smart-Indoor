@@ -10,6 +10,7 @@ Los cuales controlan los siguientes actuadores:
 
 - Ventilador 12V
 - Bomba 5v
+- Luces
 
 Existen tres pantallas que se cambian mediante 1° pulsador:
 

@@ -12,7 +12,7 @@ Los cuales controlan los siguientes actuadores:
 - Bomba 5v
 - Luces
 
-Existen tres pantallas que se cambian mediante 1° pulsador:
+Existen tres pantallas, que se seleccionan mediante 1° pulsador:
 
 - Control temperatura:
 . Da 3 estados :  - Clima optimo

@@ -1,5 +1,5 @@
 # Smart-Indoor
-Smart indoor con control de temperatura, humedad y luces.
+Smart indoor con control de temperatura, humedad y luces desarrollador en lenguaje C.
 
 El proyecto utiliza un MC9S08SH8, un Microcontrolador de 8Bits, el cual registra los valores de:
 

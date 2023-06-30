@@ -1,40 +1,36 @@
 # Smart-Indoor
-Smart indoor con control de temperatura, humedad y luces desarrollado en lenguaje C.
+Este proyecto consiste en un sistema inteligente para interiores que controla la temperatura, humedad y luces. Está desarrollado en lenguaje C.
 
-El proyecto utiliza un MC9S08SH8, un Microcontrolador de 8Bits, el cual registra los valores de:
+El proyecto utiliza un microcontrolador MC9S08SH8 de 8 bits, que registra los valores de los siguientes sensores:
 
-- Termocupla tipo en conjunto con un Max6675 ( Conversor ADC )
-- Módulo YL-38 : Sensor de humedad de suelo
+- Termocupla tipo K junto con un Max6675 (conversor ADC)
+- Módulo YL-38: Sensor de humedad del suelo
 
-Los cuales controlan los siguientes actuadores:
+Estos sensores controlan los siguientes actuadores:
 
-- Ventilador 12V
-- Bomba 5v
+- Ventilador de 12V
+- Bomba de 5V
 - Luces
 
-Existen tres pantallas, que se seleccionan mediante 1° pulsador:
+El sistema cuenta con tres pantallas que se seleccionan mediante un primer pulsador:
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Control de temperatura:
 
-- Control temperatura:
- 
-. Da 3 estados : 
+Muestra 3 estados:
+- Clima óptimo
+- Moderada
+- Alerta roja
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Control de humedad:
 
-Clima optimo |
-Moderada |
-Alerta roja |
+Activa o desactiva una bomba según el rango de valores predeterminado.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Control lumínico:
 
-- Control de humedad:
+Tiene 2 modos controlados por un segundo pulsador:
+- Floración: cuenta regresiva de 12 horas
+- Vegetación: cuenta regresiva de 18 horas
 
-Activa o desactiva una bomba
-
-- Control lumínico
-2 modos controlados por un 2° pulsador: 
-
-Floración: tiene un contador descendente de 12:00:00 HS ||
-Vegetación: tiene un contador descendente de 18:00:00 HS
-
-Se inicia y pausa la cuenta mediante un 3° pulsador
-
-Si el contador no esta pausado las luces permanecerán encendidas.
-                                       
+Se puede iniciar y pausar la cuenta regresiva mediante un tercer pulsador. Si el contador no está pausado, las luces permanecerán encendidas.
 
 

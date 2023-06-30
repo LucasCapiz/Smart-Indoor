@@ -14,7 +14,6 @@ Estos sensores controlan los siguientes actuadores:
 
 El sistema cuenta con tres pantallas que se seleccionan mediante un primer pulsador:
 
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 # Control de temperatura:
 
 Muestra 3 estados:

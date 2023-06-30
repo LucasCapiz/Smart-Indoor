@@ -13,6 +13,7 @@ Estos sensores controlan los siguientes actuadores:
 - Luces
 
 El sistema cuenta con tres pantallas que se seleccionan mediante un primer pulsador:
+
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 # Control de temperatura:
 

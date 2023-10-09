@@ -56,7 +56,7 @@ void main(void)
     EnableInterrupts;
     SOPT1 = 0x02; // SOPT1: COPT=0,STOPE=0,IICPS=0,BKGDPE=1,RSTPE=0
     PTBDD = 0xC8; // PTB7 como salida el resto como entrada
-    PTCDD = 0xC;  // PTC 2 y 3 como salida lo demas
+    PTCDD = 0xC;  // PTC 2 y 3 como salida lo demas como entrada
 
     // Inicializo LCD
 
